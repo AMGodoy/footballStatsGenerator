@@ -3,7 +3,8 @@ import os
 
 
 # --- URLs de ligas ---
-BASE_PATH = r"C:\Users\Alonso MG\Desktop\FOLDERS\ESTADÍSTICAS POR LIGA"
+BASE_PATH = r"C:\Users\User\Desktop\FOLDERS\ESTADÍSTICAS POR LIGA"
+#BASE_PATH = r"C:\Users\Alonso MG\Desktop\FOLDERS\ESTADÍSTICAS POR LIGA"
 
 ArgentinaPrimeraDiv = os.path.join(BASE_PATH, "Argentina Primera Div..xlsx")
 ArgentinaPrimeraNac = os.path.join(BASE_PATH, "Argentina Primera Nac..xlsx")
@@ -228,13 +229,13 @@ if __name__ == "__main__":
     #Ejemplo: mostrar primeros 4 por hoja
     #top_4_locales_visitas(LigaMX)
 
-    estadisticas_equipos(SuperLigaChina,"Changchun Yatai", "Qingdao Hainiu")
-    print()
-    """print("#### OTRO PARTIDO ######")
-    estadisticas_equipos(SuperLigaChina,"Beijing","Dalian")
+    estadisticas_equipos(SueciaAllsvenskan,"Elfsborg", "Degerfors")
     print()
     print("#### OTRO PARTIDO ######")
-    estadisticas_equipos(SuperLigaChina,"Shanghai Port","Wuhan")
+    estadisticas_equipos(SueciaAllsvenskan,"Hacken","Norrkoping")
+    print()
+    """print("#### OTRO PARTIDO ######")
+    estadisticas_equipos(IcelandUrvalsdeild,"Hafnarfjordur","breidablik")
     print()
     print("#### OTRO PARTIDO ######")
     estadisticas_equipos(SuperLigaChina,"Zhejiang","Chengdu")
